@@ -3,5 +3,6 @@ export interface dispositivo {
     tipo: string;
     nombre: string;
     caracteristica: string;
+    valor: string;
     image: string;
 }

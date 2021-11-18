@@ -1,7 +1,7 @@
 <table class="table table-striped">
     <thead>
       <tr>
-        <th scope="col"></th>
+       
         <!--<th scope="col">Id</th>-->
         <th scope="col">Tipo</th>
         <th scope="col">Nombre</th>
@@ -10,11 +10,12 @@
     </thead>
     <tbody>
       <tr *ngFor="let dispositivo of dispositivos">
-        <th ><img [src]="dispositivo.image"></th>
-        <!--<th scope="row">{{dispositivo.id}}</th>-->
+        <!--<th ><img [src]="dispositivo.image"></th>
+        <th scope="row">{{dispositivo.id}}</th>-->
+      
         <td>{{dispositivo.tipo}}</td>
         <td>{{dispositivo.nombre}}</td>
-        <td>{{dispositivo.caracteristica}}</td>
+        <td>{{dispositivo.caracteirtica.valor}}</td>
       </tr>
      
     </tbody>

@@ -9,23 +9,13 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr *ngFor="let dispositivo of dispositivos">
         <th ><img [src]="dispositivo.image"></th>
         <th scope="row">{{dispositivo.id}}</th>
         <td>{{dispositivo.tipo}}</td>
         <td>{{dispositivo.nombre}}</td>
         <td>{{dispositivo.caracteristica}}</td>
       </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>switch</td>
-        <td>cisco 2222</td>
-        <td>48 puertos</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
-      </tr>
+     
     </tbody>
   </table>

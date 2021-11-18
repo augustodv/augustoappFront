@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { dispositivo } from './dispositivo';
 
 @Component({
   selector: 'dispositivo-list',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DispositivoListComponent implements OnInit {
 
-  dispositivo = {
+
+
+
+  dispositivos : dispositivo [] = [{
 
     id: 1,
     tipo: "Switch",
@@ -15,7 +19,23 @@ export class DispositivoListComponent implements OnInit {
     caracteristica: "24 Puertos",
     image: "https://www.hardpc.com.uy/web/image/product.template/41589/image_256"
 
-  }
+  },
+  {
+    id: 2,
+    tipo: "AP",
+    nombre: "Ubiquiti PRo",
+    caracteristica: "2 Puertos",
+    image: "https://www.hardpc.com.uy/web/image/product.template/41589/image_256"
+
+  },
+  {
+    id: 3,
+    tipo: "Switch",
+    nombre: "Tplink SG3000",
+    caracteristica: "12 Puertos",
+    image: "https://www.hardpc.com.uy/web/image/product.template/41589/image_256"
+
+  },]
 
 
   constructor() { }

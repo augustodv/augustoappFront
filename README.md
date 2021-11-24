@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+##
+
+Cambiar la URL donde apunta sus llamados en sus archivos de enviroment.prod.ts para apuntar a HEROKU
+apiUrl: 'https://augustoapp-devera.herokuapp.com/'
+
+Modivicar la constante de llamada con el nombre del modulo donde hara el get 
+
+const URL = environment.apiUrl + 'dispositivos'
+
+IMPORTANTE
+
+Recordar popular la base de datos creada en heroku para que no falle la APP

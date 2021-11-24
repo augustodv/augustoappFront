@@ -2,9 +2,10 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { dispositivo } from './dispositivo-list/dispositivo';
+import { environment } from 'src/environments/environment';
 
 
-const URL = "http://localhost:3000/dispositivos"
+const URL = environment.apiUrl + 'dispositivos'
 
 @Injectable({
   providedIn: 'root'

@@ -5,7 +5,7 @@ import { DISPOSITIVOSComponent } from './dispositivos/dispositivos.component';
 
 const routes: Routes = [
 
-  { path: '',redirectTo: 'beers',pathMatch: 'full' },
+  { path: '',redirectTo: 'Dispositivos',pathMatch: 'full' },
   { path: 'Dispositivos', component: DISPOSITIVOSComponent },
   { path: 'about', component: AboutUsComponent },
 

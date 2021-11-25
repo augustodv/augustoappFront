@@ -39,3 +39,11 @@ const URL = environment.apiUrl + 'dispositivos'
 IMPORTANTE
 
 Recordar popular la base de datos creada en heroku para que no falle la APP
+
+
+
+
+## URL DEL PROYECTO:
+
+FRONT: https://angry-kilby-b0cb5c.netlify.app/
+BACKEND: https://augustoapp-devera.herokuapp.com/productos
